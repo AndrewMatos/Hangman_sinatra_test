@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="Assets/Styles/style.css">
+</head>
+<body>
+   <p> This is the Hangman, Game </p>
+  
+   <form  method="POST" action="/game">
+   	<p>Your Name: <input type="text" name="name"></p>
+   	<div id="radio">
+			<label><input value="new" type="radio" name="load?" > New game</label>
+			<label><input value="load" type="radio" name="load?"> Load previous saved game</label>
+    </div>
+    <input type="hidden" id="custId" name="first_turn" value="true">
+    <br>
+    <input type="submit" value="play game!">
+   </form>
+  
+   <script src="Assets/Scripts/script.js"></script>
+ </body>
+</html>

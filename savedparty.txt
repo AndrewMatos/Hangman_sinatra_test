@@ -1,0 +1,3 @@
+{"word":["a","v","e","r","t"]}
+0
+{"numberOfWords":["a","_","_","_","t"],"hangdummy":["|________|","|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|","|&nbsp;&nbsp;&nbsp;|_____","_|_","&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;/&nbsp;\\","&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|","&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;/|\\","&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;o","&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|","&nbsp;&nbsp;&nbsp;____"],"playerstatus":[],"letterused":["a","t"]}

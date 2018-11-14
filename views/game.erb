@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="Assets/Styles/style.css">
+</head>
+<body> 
+   <div> 
+   <% @hang.each do |dummy| %>
+   <p class="right"> <%= dummy %></p> 
+   <% end %>
+   </div>
+  
+   <p> <%= "#{@name} guess the word before you get hang" %> </p>
+  
+   <p> <%= "#{@word}" %> </p>
+
+   <form method="POST" action="/game">
+	   <p>write a letter : <input type="text" name="letter"></p>
+	   <input type="submit" value="enter letter">
+	   <input type="hidden" id="custId" name="first_turn" value="false">
+   </form>
+   <p> <%= "#{@letters}" %> </p>
+   <p> write exit to leave </p>
+   <script src="Assets/Scripts/script.js"></script>
+ </body>
+</html>
